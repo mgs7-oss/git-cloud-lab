@@ -1,7 +1,13 @@
-def greet(name):
-    """Return a greeting string."""
-    return f"Hello, {name}! Welcome to GitHub Cloud."
+# GitHub Cloud Lab
 
-if __name__ == "__main__":
-    print(greet("World"))
-    print(greet("GitHub"))
+A hands-on repository for learning GitHub as a cloud platform.
+
+## Contents
+
+- `hello.py` — A simple Python greeting script
+- `.devcontainer/` — Codespace configuration
+
+## Running the script
+
+```bash
+python hello.py
